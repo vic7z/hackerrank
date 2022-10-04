@@ -1,2 +1,7 @@
+
 s=input("enter a string")
-print(s[::-1])
+sr=""
+for i in s:
+  sr=i+sr
+print(sr)
+
